@@ -42,3 +42,4 @@ if st.button("Calculate BMI"):
         ax.set_title("BMI Category Chart")
         ax.legend()
         st.pyplot(fig)
+        plt.close(fig)
